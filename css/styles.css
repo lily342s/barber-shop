@@ -251,11 +251,24 @@ address {
 
 /* ---------------BENEFITS--------------*/
 
+.benefits {
+  padding-top: 143px;
+  padding-bottom: 137px;
+}
+
+.benefits-item {
+  width: 170px;
+  height: 130px;
+  border: 1px solid #000000;
+  padding: 20px 24px;
+}
+
 .benefits-item span {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.36;
   text-align: center;
+  display: block;
   letter-spacing: 0.05em;
   color: #303030;
 }
@@ -270,9 +283,12 @@ address {
 
 .benefits-pre-title {
   color: #303030;
+  margin-bottom: var(--typical-margin);
 }
+
 .benefits-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 .benefits-after-title {
   color: #555555;
