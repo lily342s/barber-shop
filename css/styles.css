@@ -64,6 +64,13 @@ address {
   margin: -1px;
 }
 
+/* .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
+
 .btn {
   font-family: inherit;
   font-weight: 600;
