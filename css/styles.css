@@ -209,12 +209,29 @@ address {
 
 /* -----------------PRICES----------------*/
 
+.prices {
+  background-color: #555555;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .prices-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
 }
+
 .prices-title {
   color: var(--main-title-color);
-  background-color: gray;
+  margin-bottom: 44px;
+}
+
+.prices-list {
+  border: 1px solid white;
+  padding: 30px 40px;
+}
+
+.prices-item {
+  margin-bottom: var(--typical-margin);
 }
 
 .prices-item-text {
@@ -227,6 +244,9 @@ address {
 
 .prices-btn {
   color: var(--main-btn-color);
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
 }
 
 /* ---------------BENEFITS--------------*/
