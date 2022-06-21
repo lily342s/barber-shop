@@ -5,6 +5,7 @@
   --main-title-color: #ffffff;
   --second-title-color: #303030;
   --accent-color: #ff6c00;
+  --typical-margin: 20px;
 }
 
 /* =================Основне, що можна скинути==================== */
@@ -64,12 +65,13 @@ address {
   margin: -1px;
 }
 
-/* .container {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-} */
+  outline: 1px solid tomato;
+}
 
 .btn {
   font-family: inherit;
@@ -105,6 +107,8 @@ address {
 
 .header {
   background-color: gray;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link,
@@ -127,6 +131,11 @@ address {
 
 /* -----------------HERO----------------*/
 
+.hero-content {
+  background-color: #303030;
+  padding: 270px 100px 200px 100px;
+}
+
 .hero-link {
   font-weight: 600;
   font-size: 11px;
@@ -142,7 +151,9 @@ address {
 
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
 }
+
 .hero-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -152,10 +163,12 @@ address {
   color: var(--main-title-color);
 
   background-color: gray;
+  margin-bottom: var(--typical-margin);
 }
 
 .hero-after-title {
   color: #9da4bd;
+  max-width: 400px;
 }
 
 /* -----------------ABOUT----------------*/
