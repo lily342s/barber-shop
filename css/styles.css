@@ -173,23 +173,34 @@ address {
 
 /* -----------------ABOUT----------------*/
 
+.about {
+  padding-top: 163px;
+  padding-bottom: 88px;
+  background-color: grey;
+}
+
 .about-pre-title {
   color: #303030;
+  margin-bottom: var(--typical-margin);
 }
 
 .about-title {
   color: var(--second-title-color);
+  margin-bottom: var(--typical-margin);
 }
 
 .about-after-title {
   color: #555555;
+  margin-bottom: var(--typical-margin);
 }
+
 .about-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
   color: #555555;
+  margin-bottom: 39px;
 }
 
 .about-btn {
