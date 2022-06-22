@@ -332,8 +332,15 @@ address {
 
 /* ---------------GALLERY--------------*/
 
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: #555555;
+}
+
 .gallery-pre-title {
   color: #303030;
+  margin-bottom: 44px;
 }
 
 /* ---------------ONLINE--------------*/
