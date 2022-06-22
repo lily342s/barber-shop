@@ -296,12 +296,19 @@ address {
 
 /* ---------------MASTERS--------------*/
 
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .masters-pre-title {
   color: #303030;
+  margin-bottom: var(--typical-margin);
 }
 
 .masters-title {
   color: var(--second-title-color);
+  margin-bottom: 44px;
 }
 
 .masters-item-title {
@@ -311,7 +318,10 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color: #303030;
+  margin-bottom: 8px;
+  margin-top: 30px;
 }
+
 .masters-item-text {
   font-size: 14px;
   line-height: 1.36;
