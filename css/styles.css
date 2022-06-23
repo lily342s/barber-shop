@@ -40,6 +40,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 /*==================== Забирає крапочки ===================*/
 
 .list {
@@ -345,20 +349,36 @@ address {
 
 /* ---------------ONLINE--------------*/
 
+.online {
+  background-color: #303030;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .online-title {
   color: var(--main-title-color);
-  background-color: gray;
 }
 
 /* ---------------CONTACTS--------------*/
 
+.contacts {
+  background-color: #555555;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .contacts-title {
   color: var(--main-title-color);
-  background-color: gray;
+  margin-bottom: 40px;
 }
 
 .contacts-address {
   font-style: normal;
+  margin-bottom: 70px;
+}
+
+.contacts-item {
+  margin-bottom: var(--typical-margin)
 }
 
 .contacts-link {
@@ -371,6 +391,7 @@ address {
 
 .contacts-pre-title {
   color: #ffffff;
+  margin-bottom: var(--typical-margin)
 }
 
 .contacts-text {
@@ -381,6 +402,11 @@ address {
 }
 
 /* ---------------FOOTER--------------*/
+
+.footer {
+  padding-top: 57px;
+  padding-bottom: 55px;
+}
 
 .footer-text {
   font-weight: 600;
