@@ -222,6 +222,19 @@ img {
   background-color: grey;
 }
 
+.about .container {
+  display: flex;
+}
+
+.about-list {
+  display: flex;
+  margin-right: 64px;
+}
+
+.about-item + .about-item {
+  margin-left: 30px;
+}
+
 .about-pre-title {
   color: #303030;
   margin-bottom: var(--typical-margin);
