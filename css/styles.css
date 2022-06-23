@@ -78,6 +78,11 @@ img {
 }
 
 .btn {
+  /* width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 50px; */
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -115,6 +120,33 @@ img {
   padding-bottom: 32px;
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-logo {
+  margin-right: 70px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-connect {
+  margin-left: auto;
+}
+
 .header-link,
 .header-tel {
   font-weight: 600;
@@ -131,6 +163,7 @@ img {
 
 .header-btn {
   color: var(--main-btn-color);
+  margin-left: 60px;
 }
 
 /* -----------------HERO----------------*/
