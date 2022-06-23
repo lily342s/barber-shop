@@ -125,7 +125,6 @@ img {
   align-items: center;
 }
 
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -168,9 +167,18 @@ img {
 
 /* -----------------HERO----------------*/
 
+.hero .container {
+  display: flex;
+}
+
+.hero-list {
+  width: 90px;
+}
+
 .hero-content {
   background-color: #303030;
   padding: 270px 100px 200px 100px;
+  flex-grow: 1;
 }
 
 .hero-link {
@@ -198,8 +206,6 @@ img {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--main-title-color);
-
-  background-color: gray;
   margin-bottom: var(--typical-margin);
 }
 
