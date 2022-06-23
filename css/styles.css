@@ -78,11 +78,11 @@ img {
 }
 
 .btn {
-  /* width: 160px;
+  width: 160px;
   height: 40px;
   background-color: transparent;
   border: 1px solid var(--accent-color);
-  border-radius: 50px; */
+  border-radius: 50px;
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
