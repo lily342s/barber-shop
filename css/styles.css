@@ -112,6 +112,7 @@ img {
   line-height: 1.67;
   letter-spacing: 0.02em;
 }
+
 /* ---------------HEADER--------------*/
 
 .header {
@@ -177,6 +178,14 @@ img {
 
 .hero-content {
   background-color: #303030;
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url(../img/hero-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 270px 100px 200px 100px;
   flex-grow: 1;
 }
@@ -483,7 +492,7 @@ img {
 }
 
 .contacts-item {
-  margin-bottom: var(--typical-margin)
+  margin-bottom: var(--typical-margin);
 }
 
 .contacts-link {
@@ -496,7 +505,7 @@ img {
 
 .contacts-pre-title {
   color: #ffffff;
-  margin-bottom: var(--typical-margin)
+  margin-bottom: var(--typical-margin);
 }
 
 .contacts-text {
