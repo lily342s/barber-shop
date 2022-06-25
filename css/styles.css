@@ -97,6 +97,20 @@ img {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+/*=========== Add line before title ============*/
+
+.pre-title::before {
+  content: "";
+  height: 1px;
+  width: 63px;
+  background: rgba(157, 164, 189, 0.6);
+  margin-right: 21px;
+  /* ====== підхвачує колір від батька ======= */
+  background-color: currentColor;
 }
 
 .title {
