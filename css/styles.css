@@ -550,12 +550,26 @@ img {
   margin: 15px;
 } */
 
+.contact-wrap {
+  background-color: #191c26;
+  background-image: url(../img/contacts-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-size: calc(50% + 15px);
+}
+
+.contact-wrap .container {
+  display: flex;
+}
+
 /* ---------------ONLINE--------------*/
 
 .online {
-  background-color: #303030;
   padding-top: 130px;
   padding-bottom: 130px;
+  width: calc(50% + 15px);
 }
 
 .online-title {
@@ -565,9 +579,10 @@ img {
 /* ---------------CONTACTS--------------*/
 
 .contacts {
-  background-color: #555555;
   padding-top: 130px;
   padding-bottom: 130px;
+  padding-left: 100px;
+  width: calc(50% - 15px);
 }
 
 .contacts-title {
