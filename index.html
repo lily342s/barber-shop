@@ -22,6 +22,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -114,7 +115,9 @@
           </ul>
           <div class="about-content">
             <p class="about-pre-title pre-title">О нас</p>
-            <h2 class="about-title title">Лучший Барбершоп твоего города</h2>
+            <h2 class="about-title title" data-aos="fade-right">
+              Лучший Барбершоп твоего города
+            </h2>
             <p class="about-after-title after-title">
               Если ты хочешь добавить в свой образ больше уверенности – тебе
               точно к нам.
@@ -135,7 +138,7 @@
           <p class="prices-pre-title pre-title">
             Проведи время в компании лучших мастеров
           </p>
-          <h2 class="prices-title title">Услуги и цены</h2>
+          <h2 class="prices-title title" data-aos="flip-left">Услуги и цены</h2>
           <div class="prices-wrap">
             <ul class="prices-list list">
               <li class="prices-item">
@@ -205,7 +208,9 @@
             <p class="benefits-pre-title pre-title">
               старая традиционная школа
             </p>
-            <h2 class="benefits-title title">Почему приходят именно к нам?</h2>
+            <h2 class="benefits-title title" data-aos="zoom-in">
+              Почему приходят именно к нам?
+            </h2>
             <p class="benefits-after-title after-title">
               О нас говорят только хорошее. Но лучше 1 раз увидеть и
               прочувствовать, чем 10 раз прочитать.
@@ -218,7 +223,14 @@
           <p class="masters-pre-title pre-title">
             для настоящих ценителей атмосферы
           </p>
-          <h2 class="masters-title title">Наши мастера</h2>
+          <h2
+            class="masters-title title"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Наши мастера
+          </h2>
           <ul class="masters-list list">
             <li class="masters-item">
               <img
@@ -388,10 +400,12 @@
       <div class="contact-wrap">
         <div class="container">
           <section class="online">
-            <h2 class="online-title title">Онлайн-запись</h2>
+            <h2 class="online-title title" data-aos="zoom-in-up">
+              Онлайн-запись
+            </h2>
           </section>
           <section class="contacts">
-            <h2 class="contacts-title title">Контакты</h2>
+            <h2 class="contacts-title title" data-aos="zoom-in-up">Контакты</h2>
             <address class="contacts-address">
               <ul class="contacts-list list">
                 <li class="contacts-item">
@@ -430,5 +444,9 @@
         </ul>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
