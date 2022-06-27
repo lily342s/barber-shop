@@ -74,7 +74,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
 }
 
 .btn {
@@ -130,7 +129,8 @@ img {
 /* ---------------HEADER--------------*/
 
 .header {
-  background-color: gray;
+  position: absolute;
+  width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -168,6 +168,7 @@ img {
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: var(--header-color);
+  transition: color 300ms linear;
 }
 
 .header-link:hover,
