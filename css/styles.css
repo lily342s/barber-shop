@@ -772,3 +772,13 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
