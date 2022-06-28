@@ -193,8 +193,32 @@ img {
   display: flex;
 }
 
-.hero-list {
+.hero-soc {
   width: 90px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 33px;
+  padding-left: 22px;
+}
+
+.hero-list {
+  display: flex;
+  transform: rotate(-90deg) translateY(100%);
+  transform-origin: bottom left;
+  align-items: center;
+}
+
+.hero-list::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+
+  margin-right: 40px;
+}
+
+.hero-item + .hero-item {
+  margin-left: 40px;
 }
 
 .hero-content {
