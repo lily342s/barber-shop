@@ -88,6 +88,12 @@ img {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  transition: background-color 300ms linear, color 300ms linear;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  color: var(--main-btn-color);
 }
 
 .pre-title {
