@@ -749,15 +749,20 @@ img {
   transition: opacity 300ms linear, visibility 300ms linear;
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0) rotate(-360deg);
+}
+
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1) rotate(0);
   width: 500px;
   min-height: 600px;
   background-color: #ffffff;
   border-radius: 5px;
+  transition: transform 300ms linear;
 }
 
 .modal-close-btn {
