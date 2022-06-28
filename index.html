@@ -52,7 +52,9 @@
           <a href="tel:+380441111111" class="header-tel link"
             >+38 044 111 11 11</a
           >
-          <button type="button" class="header-btn btn">онлайн-запись</button>
+          <button type="button" class="header-btn btn" data-modal-open>
+            онлайн-запись
+          </button>
         </div>
       </div>
     </header>
@@ -461,9 +463,9 @@
         </ul>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="masters-soc-icon" width="20" height="20">
             <use href="./img/icons.svg#icon-instagram"></use>
           </svg>
@@ -474,5 +476,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
