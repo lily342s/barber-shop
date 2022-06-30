@@ -463,13 +463,33 @@
         </ul>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="masters-soc-icon" width="20" height="20">
             <use href="./img/icons.svg#icon-instagram"></use>
           </svg>
         </button>
+        <p class="modal-title">Записаться к мастеру</p>
+        <p class="modal-text">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium
+        </p>
+        <form class="modal-form">
+          <input
+            type="text"
+            name="user-name"
+            class="modal-input"
+            placeholder="Имя"
+          />
+          <input
+            type="text"
+            name="user-tel"
+            class="modal-input"
+            placeholder="Телефон"
+          />
+          <button type="submit" class="btn modal-btn">отправить</button>
+        </form>
       </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
