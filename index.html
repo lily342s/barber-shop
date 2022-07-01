@@ -476,18 +476,31 @@
           accusantium
         </p>
         <form class="modal-form">
-          <input
-            type="text"
-            name="user-name"
-            class="modal-input"
-            placeholder="Имя"
-          />
-          <input
-            type="text"
-            name="user-tel"
-            class="modal-input"
-            placeholder="Телефон"
-          />
+          <label class="modal-label"
+            >Имя
+            <input
+              type="text"
+              name="user-name"
+              class="modal-input"
+              placeholder="John"
+              required
+              minlength="2"
+            />
+          </label>
+          <div class="modal-field">
+            <label class="modal-label" for="user-tel">Телефон</label>
+            <input
+              type="tel"
+              name="user-tel"
+              class="modal-input"
+              placeholder="+380 (96) 111-11-11"
+              required
+              minlength="10"
+              title="+380 (96) 111-11-11"
+              pattern=""
+              id="user-tel"
+            />
+          </div>
           <button type="submit" class="btn modal-btn">отправить</button>
         </form>
       </div>
