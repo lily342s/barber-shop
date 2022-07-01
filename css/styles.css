@@ -800,6 +800,14 @@ img {
   color: hsla(0, 0%, 13%, 0.605);
 }
 
+.modal-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  line-height: calc(18 / 15);
+  color: hsla(0, 0%, 13%, 0.605);
+}
+
 .modal-btn {
   display: block;
   margin: 0 auto;
