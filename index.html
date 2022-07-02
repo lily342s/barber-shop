@@ -497,7 +497,6 @@
               required
               minlength="10"
               title="+380 (96) 111-11-11"
-              pattern=""
               id="user-tel"
             />
           </div>
@@ -510,6 +509,20 @@
               placeholder="Комментарий"
             ></textarea>
           </div>
+          <fieldset>
+            <legend>Size</legend>
+            <label for="big">big</label>
+            <input type="radio" id="big" name="size" value="big" />
+            <label for="small">small</label>
+            <input type="radio" id="small" name="size" value="small" />
+          </fieldset>
+          <fieldset>
+            <legend>Add</legend>
+            <label for="cheese">cheese</label>
+            <input type="checkbox" id="cheese" name="add" value="cheese" />
+            <label for="tomato">tomato</label>
+            <input type="checkbox" id="tomato" name="add" value="tomato" />
+          </fieldset>
           <button type="submit" class="btn modal-btn">отправить</button>
         </form>
       </div>
