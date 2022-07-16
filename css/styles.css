@@ -809,7 +809,7 @@ img {
 .modal-input::placeholder {
   font-size: 15px;
   line-height: calc(18 / 15);
-  color: hsla(0, 0%, 13%, 0.605);
+  color: hsla(0, 0%, 13%, 0.7);
 }
 
 .modal-label {
